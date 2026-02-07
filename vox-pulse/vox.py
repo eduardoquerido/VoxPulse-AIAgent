@@ -179,9 +179,17 @@ if st.session_state.analysis_data:
     with col_graphs:
         st.subheader(t["graph_section"])
 
-        if data.get("graph_json") and "results" in data["graph_json"]:
+        if data.get("graph_json") is None:
+            st.error("The model couldn't return a valid JSON format")
+
+            if st.checkbox("See JSON response"):
+                st.write(data.get("raw_report"))
+        
+        
+        elif  "results" in data["graph_json"]:
             df = pd.DataFrame(data["graph_json"]["results"])
 
+            ################ Bar Graph #####################
             fig_bar = px.bar(
                 df,
                 x="name",
@@ -197,6 +205,8 @@ if st.session_state.analysis_data:
             st.plotly_chart(fig_bar, use_container_width=True)
 
             st.divider()
+
+            ################# Radar Graph ###################
 
             df_radar = df.rename(columns=t["metrics"])
             metrics_cols = list(t["metrics"].values())

@@ -76,7 +76,7 @@ class VoxPulseCrew:
         return Task(
             description="Analyze and compare the following politicians: {politicians_list}.",
             expected_output="A structured JSON object with sentiment and trust metrics for each name.",
-            # output_json=ComparisonOutput,
+            output_json=ComparisonOutput,
             agent=self.analyst(),
         )
 
