@@ -13,12 +13,16 @@ Veja o VoxPulse-AI em ação, fornecendo insights sobre a percepção pública d
 
 O agente pesquisador coleta as informações mais recentes, e o analista compila um resumo executivo completo.
 
-![Exemplo de Relatório](examples/images/researchExample.png)
+<div align="center">
+  <img src="../images/researchExample.png" alt="Exemplo de Relatório">
+</div>
 *Captura de tela: Relatório gerado pelo agente analista sobre um político específico.*
 
 ---
 
-![Exemplo de Relatório Textual](examples/images/textualExampleBR.png)
+<div align="center">
+  <img src="../images/textualExampleBR.png" alt="Exemplo de Relatório Textual">
+</div>
 *Captura de tela: Relatório textual gerado pelo agente analista sobre um político específico.*
 
 ---
@@ -27,7 +31,9 @@ O agente pesquisador coleta as informações mais recentes, e o analista compila
 
 Avaliação da Percepção Pública de múltiplos candidatos, permitindo uma comparação rápida e eficaz.
 
-![Exemplo de Gráfico de Barras - Percepção Pública](examples/images/barExample.png)
+<div align="center">
+  <img src="../images/barExample.png" alt="Exemplo de Gráfico de Barras - Percepção Pública">
+</div>
 *Captura de tela: Gráfico de barras mostrando a "Percepção Pública" de vários políticos.*
 
 ---
@@ -36,7 +42,9 @@ Avaliação da Percepção Pública de múltiplos candidatos, permitindo uma com
 
 Uma visão abrangente de como diferentes políticos se posicionam em métricas cruciais como Confiança Econômica, Aprovação Social e Segurança Pública.
 
-![Exemplo de Gráfico Radar - Perfil Multidimensional](examples/images/radarExample.png)
+<div align="center">
+  <img src="../images/radarExample.png" alt="Exemplo de Gráfico Radar - Perfil Multidimensional">
+</div>
 *Captura de tela: Gráfico radar detalhando o perfil multidimensional de políticos comparados.*
 
 
